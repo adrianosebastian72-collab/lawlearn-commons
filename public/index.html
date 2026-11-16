@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en" data-beta-mode="public">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#19243a">
+  <meta name="description" content="Free, open-source South African law learning tools. Understand the law. Learn it together.">
+  <meta name="robots" content="noindex,nofollow">
+  <title>LawLearn Commons — Understand the law. Learn it together.</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="LawLearn Commons home">
+        <span class="brand-mark">§</span>
+        <span class="brand-copy"><strong>LawLearn</strong><small>COMMONS</small></span>
+      </a>
+      <div class="side-caption">YOUR LEARNING SPACE</div>
+      <nav class="nav-list">
+        <button class="nav-link active" data-page="home"><span>⌂</span> Overview</button>
+        <button class="nav-link" data-page="tutor"><span>✧</span> AI study partner</button>
+        <button class="nav-link" data-page="tools"><span>▤</span> Study tools</button>
+        <button class="nav-link" data-page="notes"><span>✎</span> My notebook</button>
+        <button class="nav-link" data-page="planner"><span>▦</span> Study planner</button>
+        <button class="nav-link" data-page="resources"><span>◎</span> Legal resources</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="community-card">
+          <span class="community-icon">✦</span>
+          <strong>Learning is a shared journey.</strong>
+          <p>Make space for questions. Share knowledge. Help someone else learn.</p>
+          <a href="/lawlearn-commons-source.zip">Download source code ↗</a>
+        </div>
+        <div class="sidebar-foot">OPEN LEARNING · SOUTH AFRICA FIRST</div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="topbar-left">
+          <button class="mobile-menu" id="mobile-menu" aria-label="Open navigation">☰</button>
+          <div><span class="eyebrow">A COMMONS FOR LEGAL LEARNING</span><div class="page-name" id="page-name">Overview</div></div>
+        </div>
+        <div class="topbar-right">
+          <span class="beta-pill">20-LEARNER PUBLIC BETA</span><span class="jurisdiction-pill"><span class="pulse-dot"></span> South Africa · learning mode</span>
+          <span class="avatar" aria-hidden="true">LL</span>
+        </div>
+      </header>
+
+      <div class="beta-banner" role="status">
+        <strong>Welcome to the public beta.</strong> AI is switched off for this first test. Your notes, subjects, flashcards and tasks stay in this browser on this device. <a href="/beta-guide.html">Read the tester guide</a>.
+      </div>
+
+      <section class="page active" id="home" aria-labelledby="home-title">
+        <div class="hero-panel">
+          <div class="hero-copy">
+            <span class="eyebrow light">OPEN ACCESS. SHARED KNOWLEDGE.</span>
+            <h1 id="home-title">Understand the law.<br><em>Learn it together.</em></h1>
+            <p>A calmer place to explore legal ideas, organise your study, and build confidence — one concept at a time.</p>
+            <div class="hero-actions">
+              <button class="btn btn-light" data-go="tools">Explore study tools <span>→</span></button>
+              <button class="btn btn-glass" data-go="tutor">Meet the study partner</button>
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            <div class="balance-icon"><span>§</span></div>
+            <span class="art-spark spark-one">✦</span><span class="art-spark spark-two">✧</span>
+          </div>
+        </div>
+
+        <div class="intro-row">
+          <div><span class="eyebrow">YOUR WORKSPACE</span><h2>Make room for progress.</h2><p class="muted">Your core study tools are free to use. No account, AI subscription or payment is required for this beta.</p></div>
+          <div class="local-badge"><span class="status-dot"></span> Local tools available</div>
+        </div>
+
+        <div class="stats-grid">
+          <article class="stat-card"><div class="stat-icon lilac">✎</div><div><span class="stat-label">Saved notes</span><strong id="stat-notes">0</strong><small>Your personal study library</small></div></article>
+          <article class="stat-card"><div class="stat-icon peach">▦</div><div><span class="stat-label">Open tasks</span><strong id="stat-tasks">0</strong><small>Small steps, steady progress</small></div></article>
+          <article class="stat-card"><div class="stat-icon mint">▣</div><div><span class="stat-label">Revision cards</span><strong id="stat-cards">0</strong><small>Ready for active recall</small></div></article>
+        </div>
+
+        <div class="section-head"><div><span class="eyebrow">CHOOSE YOUR NEXT STEP</span><h2>What would help today?</h2></div></div>
+        <div class="feature-grid">
+          <button class="feature-card" data-go="tools"><span class="feature-icon purple">✧</span><span class="feature-title">Understand a topic</span><span class="feature-desc">Summarise your own notes or build a case brief.</span><span class="feature-arrow">↗</span></button>
+          <button class="feature-card" data-go="tools"><span class="feature-icon peach">▣</span><span class="feature-title">Practise remembering</span><span class="feature-desc">Create revision cards and quick recall questions.</span><span class="feature-arrow">↗</span></button>
+          <button class="feature-card" data-go="planner"><span class="feature-icon mint">▦</span><span class="feature-title">Plan your week</span><span class="feature-desc">Break deadlines into manageable study tasks.</span><span class="feature-arrow">↗</span></button>
+          <button class="feature-card" data-go="resources"><span class="feature-icon blue">⌕</span><span class="feature-title">Find a legal source</span><span class="feature-desc">Start with selected South African public resources.</span><span class="feature-arrow">↗</span></button>
+        </div>
+
+        <div class="beta-checklist panel">
+          <div><span class="eyebrow">20-LEARNER BETA</span><h2>Help us improve legal learning.</h2><p class="muted">Try a few tools, save a note, create revision cards and add a study task. Tell us what is confusing or missing. Please do not enter private client information or sensitive personal details.</p><a class="text-button" href="/beta-guide.html">How to take part →</a></div>
+        </div>
+
+        <div class="split-row">
+          <section class="panel"><div class="panel-head"><div><span class="eyebrow">YOUR SUBJECTS</span><h2>Study areas</h2></div><button class="text-button" id="add-subject">+ Add subject</button></div><div id="subjects-list" class="subject-list"><p class="empty-copy">Add a subject or module to shape your learning space.</p></div></section>
+          <section class="panel encouragement"><span class="quote-mark">“</span><p>Progress is not measured by how much you do in one day. It is built by the small things you return to.</p><span class="quote-credit">A NOTE FOR EVERY LEARNER</span></section>
+        </div>
+      </section>
+
+      <section class="page" id="tutor" aria-labelledby="tutor-title">
+        <div class="page-intro"><span class="eyebrow">AI ASSISTANT · COMING LATER</span><h1 id="tutor-title">LawLearn AI is in development.</h1><p>We are testing the free study tools first. The AI tutor is intentionally switched off until our safety, source-verification and spending controls are ready.</p></div>
+        <div class="ai-notice" id="ai-notice"><span class="notice-icon">✧</span><div><strong>No AI is active in this beta.</strong><p id="ai-notice-text">Your questions and study material are not sent to an AI provider. Try the local study tools instead.</p></div><span class="notice-state" id="ai-state">BETA · OFF</span></div>
+        <div class="chat-panel">
+          <div class="chat-header"><div class="ai-avatar">§</div><div><strong>LawLearn study partner</strong><small>South African law learning · not legal advice</small></div><span class="chat-tag">STUDY MODE</span></div>
+          <div class="chat-messages" id="chat-messages" aria-live="polite"><div class="chat-message assistant"><strong>LawLearn AI is not switched on yet.</strong><p>We are building a source-grounded, carefully tested assistant. During this beta, no AI provider receives anything you type here. Use the Quick summary, Case brief, Flashcards and Practice quiz tools instead.</p></div></div>
+          <div class="prompt-chips"><button type="button" disabled>Explain IRAC · coming later</button><button type="button" disabled>Compare legal concepts · coming later</button><button type="button" disabled>Study coach · coming later</button></div>
+          <form id="chat-form" class="chat-form"><label class="sr-only" for="chat-input">AI assistant question</label><input id="chat-input" placeholder="AI chat is not available in this beta" maxlength="6000" disabled><button class="btn btn-primary" id="chat-send" type="submit" disabled>Coming later</button></form>
+          <p class="chat-footnote">The AI tutor is not yet available. Nothing typed here is transmitted. Never enter confidential or privileged information in a future AI feature.</p>
+        </div>
+      </section>
+
+      <section class="page" id="tools" aria-labelledby="tools-title">
+        <div class="page-intro"><span class="eyebrow">THE STUDY WORKBENCH</span><h1 id="tools-title">Turn material into understanding.</h1><p>Use the tools on your own notes and course material. Local tools run in your browser; AI actions are disabled during this beta.</p></div>
+        <div class="tool-tabs" role="tablist" aria-label="Study tools"><button class="tool-tab active" data-tool="summary" role="tab" aria-selected="true">Quick summary</button><button class="tool-tab" data-tool="case" role="tab" aria-selected="false">Case brief</button><button class="tool-tab" data-tool="cards" role="tab" aria-selected="false">Flashcards</button><button class="tool-tab" data-tool="quiz" role="tab" aria-selected="false">Practice quiz</button></div>
+        <div class="panel tool-workspace">
+          <div class="tool-panel active" id="tool-summary"><div class="tool-panel-head"><div><span class="eyebrow">LOCAL TEXT TOOL</span><h2>Quick summary</h2><p class="muted">Selects key sentences from your text. This is an extractive aid, not an AI-written legal summary.</p></div><span class="free-tag">FREE · NO AI KEY</span></div><label class="field-label" for="study-material">Paste lecture notes, case extracts, or a topic</label><textarea class="textarea" id="study-material" placeholder="Paste your study material here. Include the title or source so you can keep track of it…"></textarea><div class="tool-actions"><label class="file-pick">Upload .txt or .md <input id="text-file" type="file" accept=".txt,.md,text/plain,text/markdown"></label><button class="btn btn-primary" id="local-summary">Create quick summary</button><button class="btn btn-outline" id="ai-summary" disabled title="AI is disabled during the public beta">AI summary · coming later</button></div><div class="result-box" id="summary-result" hidden><div class="result-head"><strong>Your study summary</strong><button class="text-button" data-copy="summary-result">Copy</button></div><div class="result-content" id="summary-content"></div><button class="btn btn-soft" id="save-summary">Save to notebook</button></div></div>
+          <div class="tool-panel" id="tool-case"><div class="tool-panel-head"><div><span class="eyebrow">CASE READING FRAMEWORK</span><h2>Build a case brief</h2><p class="muted">A structured worksheet to help you read judgments carefully. Fill it from the case itself.</p></div><span class="free-tag">FREE · NO AI KEY</span></div><div class="form-grid"><div class="field full"><label class="field-label" for="case-name">Case name and citation</label><input class="input" id="case-name" placeholder="Enter exactly as shown in your source"></div><div class="field"><label class="field-label" for="case-facts">Material facts</label><textarea class="textarea compact" id="case-facts" placeholder="What happened?"></textarea></div><div class="field"><label class="field-label" for="case-issue">Legal issue</label><textarea class="textarea compact" id="case-issue" placeholder="What legal question did the court have to decide?"></textarea></div><div class="field"><label class="field-label" for="case-decision">Decision / outcome</label><textarea class="textarea compact" id="case-decision" placeholder="What did the court decide?"></textarea></div><div class="field"><label class="field-label" for="case-reasoning">Court's reasoning</label><textarea class="textarea compact" id="case-reasoning" placeholder="Why did the court decide this way?"></textarea></div><div class="field full"><label class="field-label" for="case-principle">Legal principle and exam relevance</label><textarea class="textarea compact" id="case-principle" placeholder="What principle can you take from the judgment? Why does it matter?"></textarea></div></div><div class="tool-actions"><button class="btn btn-primary" id="build-case">Build case brief</button><button class="btn btn-outline" id="ai-case" disabled title="AI is disabled during the public beta">AI review · coming later</button></div><div class="result-box" id="case-result" hidden><div class="result-head"><strong>Case brief worksheet</strong><button class="text-button" data-copy="case-content">Copy</button></div><div class="result-content" id="case-content"></div><button class="btn btn-soft" id="save-case">Save to notebook</button></div></div>
+          <div class="tool-panel" id="tool-cards"><div class="tool-panel-head"><div><span class="eyebrow">ACTIVE RECALL</span><h2>Make revision cards</h2><p class="muted">Creates simple fill-in-the-blank prompts from your own material. Check each answer against your notes.</p></div><span class="free-tag">FREE · NO AI KEY</span></div><label class="field-label" for="cards-material">Study material</label><textarea class="textarea" id="cards-material" placeholder="Paste a few paragraphs from your notes…"></textarea><div class="tool-actions"><button class="btn btn-primary" id="make-cards">Generate local flashcards</button><button class="btn btn-outline" id="ai-cards" disabled title="AI is disabled during the public beta">AI cards · coming later</button></div><div class="flashcard-area" id="flashcard-area" hidden><div class="flashcard-meta" id="flashcard-meta">CARD 1</div><button class="flashcard" id="flashcard" aria-label="Reveal flashcard answer"><span class="flash-label" id="flash-label">QUESTION</span><strong id="flash-question"></strong><span class="flash-answer" id="flash-answer" hidden></span><small>Tap or press Enter to reveal</small></button><div class="flash-controls"><button class="btn btn-outline" id="previous-card">← Previous</button><button class="btn btn-primary" id="reveal-card">Reveal answer</button><button class="btn btn-outline" id="next-card">Next →</button></div><button class="text-button" id="save-cards">Save cards to revision deck</button></div></div>
+          <div class="tool-panel" id="tool-quiz"><div class="tool-panel-head"><div><span class="eyebrow">CHECK YOUR RECALL</span><h2>Practice quiz</h2><p class="muted">Builds recall questions from longer words in your own notes. It is a simple practice aid, not a validated assessment.</p></div><span class="free-tag">FREE · NO AI KEY</span></div><label class="field-label" for="quiz-material">Study material</label><textarea class="textarea" id="quiz-material" placeholder="Paste the topic you want to practise…"></textarea><div class="tool-actions"><button class="btn btn-primary" id="make-quiz">Create practice questions</button><button class="btn btn-outline" id="ai-quiz" disabled title="AI is disabled during the public beta">AI quiz · coming later</button></div><div class="quiz-area" id="quiz-area" hidden><div class="quiz-progress" id="quiz-progress"></div><h3 id="quiz-question"></h3><form id="quiz-form"><label class="sr-only" for="quiz-answer">Your answer</label><input class="input" id="quiz-answer" placeholder="Type the missing word" autocomplete="off"><button class="btn btn-primary" type="submit">Check answer</button></form><div class="quiz-feedback" id="quiz-feedback" aria-live="polite"></div><button class="btn btn-outline" id="quiz-next" hidden>Next question →</button></div></div>
+        </div>
+      </section>
+
+      <section class="page" id="notes" aria-labelledby="notes-title">
+        <div class="page-intro"><span class="eyebrow">YOUR PRIVATE WORKSPACE</span><h1 id="notes-title">A notebook that stays yours.</h1><p>Notes are saved in this browser on this device. Export a backup before clearing browser data.</p></div>
+        <div class="panel"><h2>Create a note</h2><form id="note-form"><label class="field-label" for="note-title">Title</label><input class="input" id="note-title" maxlength="120" placeholder="e.g. Introduction to constitutional law" required><label class="field-label" for="note-body">Your notes</label><textarea class="textarea" id="note-body" placeholder="Write your notes or paste a saved summary…" required></textarea><div class="tool-actions"><button class="btn btn-primary">Save note</button></div></form></div>
+        <div class="section-head"><div><span class="eyebrow">SAVED ON THIS DEVICE</span><h2>Your notebook</h2></div><button class="btn btn-outline" id="export-data">Export my data ↓</button></div>
+        <div id="notes-list" class="saved-list"><div class="empty-state"><span>✎</span><strong>Your notebook is ready.</strong><p>Save a note to see it here.</p></div></div>
+      </section>
+
+      <section class="page" id="planner" aria-labelledby="planner-title">
+        <div class="page-intro"><span class="eyebrow">GENTLE STRUCTURE</span><h1 id="planner-title">Plan the next small step.</h1><p>Keep track of assignments, reading, revision sessions, and deadlines.</p></div>
+        <div class="panel"><h2>Add a study task</h2><form id="task-form" class="task-form"><div class="field"><label class="field-label" for="task-title">What needs doing?</label><input class="input" id="task-title" maxlength="160" placeholder="e.g. Read the prescribed case" required></div><div class="field"><label class="field-label" for="task-date">Due date</label><input class="input" id="task-date" type="date" required></div><div class="field"><label class="field-label" for="task-subject">Subject (optional)</label><input class="input" id="task-subject" placeholder="e.g. Constitutional law"></div><button class="btn btn-primary task-submit">Add task +</button></form></div>
+        <div class="section-head"><div><span class="eyebrow">YOUR CHECKLIST</span><h2>Upcoming tasks</h2></div><span class="local-badge" id="task-summary">0 open tasks</span></div>
+        <div id="tasks-list" class="saved-list"><div class="empty-state"><span>▦</span><strong>No tasks yet.</strong><p>Add one small next step to begin.</p></div></div>
+      </section>
+
+      <section class="page" id="resources" aria-labelledby="resources-title">
+        <div class="page-intro"><span class="eyebrow">START WITH THE SOURCE</span><h1 id="resources-title">South African legal resources.</h1><p>A small directory of public starting points. These links are not a live legal research integration.</p></div>
+        <div class="resource-warning"><strong>Check the original and its date.</strong><p>Legislation can be amended, commenced on different dates, or partially repealed. Public access does not automatically mean you may republish or bulk-copy the material. This directory does not verify currentness.</p></div>
+        <div class="resource-grid">
+          <a class="resource-card" href="https://www.justice.gov.za/legislation/constitution/" target="_blank" rel="noopener noreferrer"><span class="resource-type">OFFICIAL · CONSTITUTION</span><strong>Department of Justice — Constitution</strong><p>Constitution text, amendments and related resources.</p><span class="resource-link">Visit source ↗</span></a>
+          <a class="resource-card" href="https://www.gov.za/documents/constitution/constitution-republic-south-africa-04-feb-1997" target="_blank" rel="noopener noreferrer"><span class="resource-type">OFFICIAL · GOVERNMENT</span><strong>South African Government — Constitution</strong><p>Government-hosted Constitution information and related links.</p><span class="resource-link">Visit source ↗</span></a>
+          <a class="resource-card" href="https://www.justice.gov.za/legislation/legislation_main.htm" target="_blank" rel="noopener noreferrer"><span class="resource-type">OFFICIAL · LEGISLATION</span><strong>Department of Justice — Legislation</strong><p>Acts, bills, subordinate legislation, rules and practice directions.</p><span class="resource-link">Visit source ↗</span></a>
+          <a class="resource-card" href="https://www.saflii.org/content/legislation.html" target="_blank" rel="noopener noreferrer"><span class="resource-type">LEGAL INFORMATION RESOURCE</span><strong>SAFLII — Legislation</strong><p>South African legislation and gazettes available through SAFLII.</p><span class="resource-link">Visit source ↗</span></a>
+          <a class="resource-card" href="https://www.saflii.org/" target="_blank" rel="noopener noreferrer"><span class="resource-type">LEGAL INFORMATION RESOURCE</span><strong>SAFLII — Judgments</strong><p>Search for judgments and legal information. Review its terms before reuse.</p><span class="resource-link">Visit source ↗</span></a>
+        </div>
+        <p class="muted resource-note">Want to add a resource? Check its authority, jurisdiction, date coverage, accessibility, reuse terms, and update process before submitting it to the project.</p>
+      </section>
+
+      <footer class="site-footer"><div><strong>LawLearn Commons</strong><span>Open legal education, built together.</span></div><div class="footer-links"><a href="/beta-guide.html">Beta guide</a><a href="/privacy.html">Privacy</a><a href="/lawlearn-commons-source.zip">Source code ↗</a><button id="clear-data">Clear my local data</button></div><p>For education only — not legal advice. No live legal database or AI is connected. Your study data is stored in this browser only. Verify legal material against primary sources.</p></footer>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
